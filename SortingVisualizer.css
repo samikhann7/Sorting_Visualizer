@@ -1,0 +1,37 @@
+body{
+
+    background-color: black;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+}
+.bars{
+    transform: rotateX(180deg);
+    display: flex;
+    position: absolute;
+    top:4rem;
+    left: 8rem; 
+} 
+.array_bar{
+    border:.3px solid black;
+    width: .7rem;
+    background-color: #8ABD91;
+}
+.bot{
+    display: flex;
+    width:100vw;
+    position: absolute;
+    bottom: 2rem;
+
+    justify-content: center; 
+}
+button{
+    width:9rem;
+    height: 2rem;
+    margin: .3rem;
+}
+button:hover{
+    cursor: pointer;
+}
